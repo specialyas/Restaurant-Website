@@ -27,3 +27,22 @@ body, h1, h2,h3,h4, h5, h6
     color: black;
     background-color: white;
 }
+
+/* Hide on small screens */
+@media (max-width: 992px) {
+    #myNavbar {
+        display: none;
+}}
+
+
+/* Custom Styles for Header */
+.bg-img {
+    background-image: url('assets/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.btn{
+    min-width: 250px;
+}
