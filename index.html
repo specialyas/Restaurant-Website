@@ -40,10 +40,118 @@
             <span class="display-1">REALLY <br> GOOD PIZZA</span>
             <p><a href="#menu" class="btn btn-lg btn-dark hover-btn fs-2">Let me see the menu</a></p>
         </div>
-        <div class="d-flex justify-content-start">
+        <div class="d-flex">
             <span class="bg-dark text-white p-3 h4">Open from 11pm call 08172050889</span>
         </div>
     </header>
-    
+
+    <!-- Menu Container-->
+    <div class="container-fluid bg-black text-white py-5 display-5" id="menu">
+        <div class="container">
+            <h1 class="text-center display-2 mb-5">THE MENU</h1>
+            <div class="text-center border border-dark">
+                <div class="d-flex">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');" class="col-4 tablink p-3 hover-red">Pasta</a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" class="col-4 tablink p-3 hover-red" id="mainLink">Pizza</a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');" class="col-4 tablink p-3 hover-red">Starter</a>
+                </div>
+            </div>
+
+
+            <!--Pizza Menu-->
+            <div id="Pizza" class="container-fluid menu p-4 bg-white">
+                <!--Magherita-->
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <h1 class="mb-0  display-3"><b>Margherita</b></h1>
+                    <span class="badge bg-dark text-white">$12.50</span>
+                </div>
+                <p class="text-muted">Fresh tomatoes, fresh mango, fresh basil</p>
+                <hr class="text-muted">
+            </div>
+
+             <!--Pasta Menu-->
+             <div id="Pasta" class="container-fluid menu p-4 bg-white">
+                <!--Pasta-->
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <h1 class="mb-0 display-3"><b>Lasagna</b></h1>
+                    <span class="badge bg-dark text-white">$13.50</span>
+                </div>
+                <p class="text-muted">Special sauce, mozzarella, parmesan, ground beef</p>
+                <hr class="text-muted">
+            </div>
+            <!--Starter Menu-->
+            <div id="Starter" class="container-fluid menu p-4 bg-white">
+                <!--Today's Soup-->
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <h1 class="mb-0 display-3"><b>Today's Soup</b><span class="badge bg-grey small-tag">Seasonal</span></h1>
+                    <span class="badge bg-dark text-white">$5.50</span>
+                </div>
+                <p class="text-muted">Ask the waiter</p>
+                <hr class="text-muted">
+        </div>
+    </div>
+
+    <!--About Container-->
+    <div class="container-fluid py-5 text-white" style="background-color: darkslateblue;" id="about">
+        <div class="container">
+            <h1 class="text-center display-2 mb3">ABOUT</h1>
+            <h1 class="display-4"><b>Opening Hours</b></h1>
+            <div class="row fs-2">
+                <div class="col-6">
+                    <p>Mon & Tues CLosed</p>
+                    <p>Wed 10.00  - 24:00</p>
+                    <p>Thursday 10:00 - 24:00</p>
+                </div>
+                <div class="col-6">
+                    <p>Friday 10.00  - 12:00</p>
+                    <p>Saturday 10.00  - 24.00</p>
+                    <p>Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="display-4">History</h1>
+        <p class="fs-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col sm-12">  
+                <p class="fs-2"><b>The Chef</b> Mr. Lee himself Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 text-end">
+                <img src="assets/chef.jpg" alt="chef" style="width: 200px;" class="rounded-circle">
+            </div>
+        </div>
+        <p class="fs-2">We are proud of our staff</p>
+        <img src="assets/restuarant.jpg" alt="restuarant" style="width: 100%;"    class="my-3 img-greyscale">
+    </div>
+
+
+    <!-- Contact -->
+    <div class="container-fluid bg-secondary text-white py-5 fs-2" id="contact">
+        <div class="contaniner">
+            <h1 class="text-center display-2 mb-5">CONTACT</h1>
+            <p>
+                <span class="badge bg-dark">FYI!</span>
+                We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of the all, both look and taste.
+            </p>
+            <p><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+            <form action="" target="_blank">
+                <div class="mb-3">
+                    <input type="text" class="form-control extra-large" placeholder="Name" required name="name">
+                </div>
+                <div class="mb-3">
+                    <input type="number" class="form-control extra-large" placeholder="How many people" required name="People">
+                </div>
+                <div class="mb-3">
+                    <input type="datetime-local" class="form-control extra-large" placeholder="Date and Time" required name="date">
+                </div>
+                <div class="mb-3">
+                    <input type="datetime-local" class="form-control extra-large" placeholder="Date and Time" required name="date">
+                </div>
+            </form>
+        </div>
+    </div>
+ <script src="script.js"></script>   
 </body>
 </html>
