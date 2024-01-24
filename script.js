@@ -17,3 +17,4 @@ function openMenu(event, menuName) {
 
 document.getElementById("mainLink").click();
 
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
