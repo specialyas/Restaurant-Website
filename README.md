@@ -15,7 +15,7 @@ A backkend could be added to accept and process payment on the sitesite
 
 ## Lessons Learned:
 
-Learnt addvanced styling techiques using bootstrap
+Learnt advanced styling techiques using bootstrap
 
 
 
