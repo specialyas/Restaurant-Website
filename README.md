@@ -3,7 +3,7 @@ A restuarant website where you can see the menu and make orders
 
 **Link to live website:** https://specialyas.github.io/Restaurant-Website/
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](image_2024-01-27_045053078.png)
 
 ## How It's Made:
 
