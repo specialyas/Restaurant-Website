@@ -1,9 +1,11 @@
 body,  html{
     height: 100%;
 }
-body, h1, h2,h3,h4, h5, h6
+body, h1, h2,h3,h4, h5, h6, nav
 {
-    font-family: "Alumni Sans" sans-serif;
+    /* font-family: "Alumni Sans" sans-serif; */
+    font-family: 'Capriola', sans-serif;
+
 }
 /* .navv {
     font-size: 2rem;
@@ -45,11 +47,8 @@ body, h1, h2,h3,h4, h5, h6
 /* Custom Styles for Header */
 .bg-img {
     /* background-image: url('assets/aplace.jpg');
-    background-size: cover;
-    background-position: center;
-    filter: brightness(50%); */ 
-/* Custom Styles for image */
 
+/* Custom Styles for image */
     background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('assets/jollof3.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -60,7 +59,6 @@ body, h1, h2,h3,h4, h5, h6
 
 .btn{
     min-width: 250px;
-
 }
 
 .btn.hover-btn:hover {
@@ -73,8 +71,6 @@ body, h1, h2,h3,h4, h5, h6
     /* font-family: 'Pacifico', cursive; */
     font-family: 'Playfair Display', serif;
     color: white;
-    /* border: 1px solid red; */
-    /* margin-top: 90px; */ 
     font-weight: 700;
     margin-bottom: 40px;
     padding: 30px;
@@ -94,12 +90,7 @@ border-radius: 5px;
 #yellow{
     background-color: #FEA116;
 }
-/* 
-header > div {
-    border: 1px solid black;
-    /* margin-top: 90px; 
 
-} */
 
 /* Custom styles for menu box*/
 .bg-black {
