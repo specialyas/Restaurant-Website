@@ -198,4 +198,11 @@ border-radius: 5px;
 @media (max-width: 992px) {
     #myNavbar {
         display: none;
-}}
+}
+
+.tablink{
+    font-size: 25px;
+}
+#menu {
+    box-sizing: border-box};
+}
