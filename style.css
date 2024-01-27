@@ -106,12 +106,12 @@ header > div {
 }
 
 .hover-red:hover{
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #FEA116;
     color: white;
 }
 
 .active-tab {
-    background-color: red;
+    background-color: #FEA116;
     color: white;
 }
 
